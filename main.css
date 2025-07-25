@@ -1,10 +1,28 @@
 ﻿.f1 {
 	border-radius: 10px;
 	white-space: nowrap;
-	background-color: #808080;
+	background-color: #606060;
 	margin-bottom: 5px;
 	height: 70px;
 	width: 100%;
+}
+.f2 {
+	border-radius: 10px;
+	text-decoration: none;
+	border-width: 0px;
+}
+.f3 {
+	font-family: Arial;
+	margin-left: 5px;
+	font-size: 30px;
+	height: 50px;
+	display: inline;
+	position: absolute;
+	flex-grow: 1; /* Allows the link to take up available space */
+    flex-basis: 0;
+    overflow-wrap: break-word;
+    white-space: normal;
+	text-align: center;
 }
 body {
 	margin: 0px;
@@ -12,7 +30,7 @@ body {
 	margin-top: -16px;
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #5F6368;
+	background-color: #303030;
 }
 body a {
 	border-width: 0px;
@@ -43,7 +61,7 @@ body a {
 	border-radius: 20px;
 	width: 200px;
 	height: 400px;
-	background: #4f4f4f;
+	background: #4b4b4b;
 }
 
 .dtr2:hover {
@@ -78,18 +96,6 @@ body a {
 	bottom: 92px;
 	border-radius: 25px;
 }
-
-.f3 {
-	font-family: Arial;
-	overflow: visible;
-	font-size: 30px;
-	height: 50px;
-	display: inline;
-	position: absolute;
-	margin-top: 17px;
-	margin-left: 5px;
-	width: 500px;
-}
 .k {
 	position: absolute;
 	bottom: 60px;
@@ -109,24 +115,22 @@ body a {
 }
 .cmnt {
 	display: block;
-	background-color: #808080;
+	background-color: #505050;
 	width: 100%;
 	text-align: center;
 	height: 60px;
 	font-size: 20px;
-}
-.f2 {
-	border-radius: 10px;
-	text-decoration: none;
-	border-width: 0px;
+	align-items: center;
 }
 .links {
 	margin-top: 16px;
 	font-family: Arial;
 	padding-top: 17px;
+	align-items: center;
 }
 .links * {
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 #Welcometext {
 	text-shadow: 
